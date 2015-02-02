@@ -1,0 +1,7 @@
+#!usr/bin/bash
+# This script runs the following snort rules on an incoming packet stream. 
+# They check for a specific byte signature that FinSpy uses to communicate with the server
+# The payload was discovered by the developers of EmergingThreats.net
+# FinFisher communicates with its servers through heartbeats that contain information whenever the victim goes online.
+alert tcp $HOME_NET any -> $EXTERNAL_NET any (msg:"FinFisher Malware Connection Initialization"; flow:to_server,established; content:"|0c 00 00 00 40 01 73 00|"; depth:8; sid:1000001; rev:1; classtype:trojan-activity; reference:url,community.rapid7.com/community/infosec/blog/2012/08/08/finfisher;)
+alert tcp $HOME_NET any -> $EXTERNAL_NET any (msg:"FinFisher Malware Connection Handshake"; flow:to_server,established; content:"|5c 00 00 00 a0 02 72 00 0c 00 00 00 40 04 fe 00|"; depth:16; sid:1000002; rev:1; classtype:trojan-activity; reference:url,community.rapid7.com/community/infosec/blog/2012/08/08/finfisher;)

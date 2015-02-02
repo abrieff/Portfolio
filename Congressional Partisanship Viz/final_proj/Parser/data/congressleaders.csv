@@ -1,0 +1,27 @@
+congress,party,name,id,state
+101,D,"Mitchell (D-ME)",S144,ME
+101,R,"Dole (R-KS)",S026,KS
+102,D,"Mitchell (D-ME)",S144,ME
+102,R,"Dole (R-KS)",S026,KS
+103,D,"Mitchell (D-ME)",S144,ME
+103,R,"Dole (R-KS)",S026,KS
+104,D,"Daschle (D-SD)",S185,SD
+104,R,"Lott (R-MS)",S203,MS
+105,D,"Daschle (D-SD)",S185,SD
+105,R,"Lott (R-MS)",S203,MS
+106,D,"Daschle (D-SD)",S185,SD
+106,R,"Lott (R-MS)",S203,MS
+107,D,"Daschle (D-SD)",S185,SD
+107,R,"Lott (R-MS)",S203,MS
+108,D,"Daschle (D-SD)",S185,SD
+108,R,"Frist (R-TN)",S214,TN
+109,D,"Reid (D-NV)",S198,NV
+109,R,"Frist (R-TN)",S214,TN
+110,D,"Reid (D-NV)",S198,NV
+110,R,"McConnell (R-KY)",S174,KY
+111,D,"Reid (D-NV)",S198,NV
+111,R,"McConnell (R-KY)",S174,KY
+112,D,"Reid (D-NV)",S198,NV
+112,R,"McConnell (R-KY)",S174,KY
+113,D,"Reid (D-NV)",S198,NV
+113,R,"McConnell (R-KY)",S174,KY
