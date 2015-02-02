@@ -1,0 +1,28 @@
+congress,party,name,id,state
+101,D, Tom Foley,
+101,R, Bob Michel
+102,D, Dick Gephardt
+102,R, Bob Michel
+103,D, Dick Gephardt,
+103,R, Dick Armey
+104,D, Dick Gephardt
+104,R, Dick Armey
+105,D, Dick Gephardt,
+105,R, Dick Armey
+106,D, Dick Gephhardt,
+106,R, Dick Armey
+107,D, Dick Gephardt,
+107,R, Dick Armey
+108,D, Nancy Pelosi
+108,R, Tom DeLay
+109,D, Nancy Pelosi
+109,R, John Boehner
+110,D, Steny Hoyer
+110,R, John Boehner
+111,D, Steny Hoyer
+111,R, John Boehner
+112,D, Nancy Pelosi
+112,R, Eric Cantor
+113,D, Nancy Pelosi
+113,R, Eric Cantor
+
